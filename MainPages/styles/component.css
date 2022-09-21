@@ -29,7 +29,7 @@ main :has(.main-inner .padding-giver > .container) {
 	overflow-y: scroll;
 }
 main .main-inner section {
-	padding: 5pc 0;
+	padding: 5pc 1rem;
 	scroll-snap-align: start;
 }
 section.one > .row {
@@ -257,7 +257,7 @@ section.six .top .quote {
 	width: 100%;
 	overflow: visible;
 }
-.carousel {
+.carousel-wrapper-inner {
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 	border-radius: 7px;
 	padding: 1rem;
