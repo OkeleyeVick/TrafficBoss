@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="../styles/component.css" />
 		<!-- footer styles -->
 		<link rel="stylesheet" href="../styles/footer.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<title>Prices</title>
 	</head>
 	<body>
@@ -33,7 +35,7 @@
 												<a href="./prices.html">Prices</a>
 											</li>
 											<li>
-												<a href="./blog-article1.html">Blogs</a>
+												<a href="./blog.html">Blogs</a>
 											</li>
 											<li>
 												<a href="./contact.html">Contact Us</a>
@@ -41,7 +43,7 @@
 										</ul>
 									</div>
 								</div>
-								<div class="p-0 col-5 col-md-3 text-end">
+								<div class="p-0 col-5 col-md-5 text-end">
 									<ul class="auth-link">
 										<div class="auth-link-inner d-none d-lg-inline-flex">
 											<li class="each-auth-link">
@@ -90,7 +92,7 @@
 						<div class="mobile-nav-links">
 							<ul>
 								<li><a href="./prices.html">Prices</a></li>
-								<li><a href="./blog-article1.html">Blog</a></li>
+								<li><a href="./blog.html">Blog</a></li>
 								<li><a href="./contact.html">Contact Us</a></li>
 								<li>
 									<a href="../../Auth/pages/login.html">Log In</a>
@@ -121,16 +123,19 @@
 						}
 					</style>
 					<div class="main-inner">
-						<divl class="padding-giver">
+						<div class="padding-giver">
 							<div class="hero-section">
 								<div class="hero-section-inner row col-12 m-0 align-items-center">
 									<div class="col-md-6">
-										<div class="content">
-											<h1><b>Our Content</b></h1>
+										<div class="content col-md-8 mx-auto text-start" data-aos="fade-right" data-aos-delay="500">
+											<h1><b style="color: #ff4a00">Our Pricing</b></h1>
+											<div class="text-small mt-4">
+												<span>Pick a plan that best fits your need</span>
+											</div>
 										</div>
 									</div>
 									<div class="col-md-5">
-										<div class="image">
+										<div class="image" data-aos="fade-left" data-aos-delay="300">
 											<img src="../../assets/images/finance.png" alt="" class="img-fluid" />
 										</div>
 									</div>
@@ -150,7 +155,7 @@
 									<div
 										class="cards-wrapper row align-items-start justify-content-center justify-content-sm-start justify-content-md-evenly">
 										<!-- ecah card -->
-										<div class="col-md-3 p-0 each-card">
+										<div class="col-md-3 p-0 each-card" data-aos="fade-right" data-aos-delay="200">
 											<div class="each-card-inner">
 												<div class="card-title">
 													<h4>Basic</h4>
@@ -200,7 +205,7 @@
 										</div>
 										<!-- each card end -->
 										<!-- ecah card -->
-										<div class="col-md-3 p-0 each-card">
+										<div class="col-md-3 p-0 each-card" data-aos="fade-right" data-aos-delay="500">
 											<div class="each-card-inner">
 												<div class="card-title">
 													<h4>Premium</h4>
@@ -250,7 +255,7 @@
 										</div>
 										<!-- each card end -->
 										<!-- ecah card -->
-										<div class="col-md-3 p-0 each-card">
+										<div class="col-md-3 p-0 each-card" data-aos="fade-right" data-aos-delay="800">
 											<div class="each-card-inner">
 												<div class="card-title">
 													<h4>Affiliate</h4>
@@ -296,7 +301,7 @@
 								<!-- section five ends -->
 							</div>
 							<!-- section eight -->
-						</divl>
+						</div>
 
 						<section class="eight">
 							<div class="section-inner container p-0">
@@ -543,7 +548,7 @@
 												<a href="./prices.html">Prices</a>
 											</li>
 											<li>
-												<a href="./blog-article1.html">Blog</a>
+												<a href="./blog.html">Blog</a>
 											</li>
 											<li>
 												<a href="./contact.html">Contact Us</a>
@@ -593,6 +598,8 @@
 			</div>
 		</div>
 
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="../control.js"></script>
 	</body>
 </html>
