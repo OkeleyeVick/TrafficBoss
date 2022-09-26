@@ -1,8 +1,8 @@
-const dateTime = document.querySelector(".chart-wrapper .date-time input[type='date']");
-const button = document.querySelector(".chart-wrapper .date-time > button");
+const links = document.querySelectorAll(".nav-links > li > a");
 
-// button.addEventListener("click", function (e) {
-// 	dateTime.click();
-// });
-
-dateTime.click();
+console.log(links);
+links.forEach((link) => {
+	if (link.pathname === window.location.pathname) {
+		link.classList.add("active");
+	}
+});

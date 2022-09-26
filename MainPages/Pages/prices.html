@@ -4,8 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/assets/font/bootstrap-icons.css" />
-		<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+		<link rel="shortcut icon" href="../../assets/images/favicon-icon-logo2.svg" type="image/x-icon" />
+		<link rel="stylesheet" href="../../assets/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="../../assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="../styles/globalstyles.css" />
 		<!-- nav styles -->
 		<link rel="stylesheet" href="../styles/nav.css" />
@@ -17,6 +18,7 @@
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<title>Prices</title>
 	</head>
+
 	<body>
 		<div class="wrapper">
 			<div class="wrapper-inner">
@@ -28,7 +30,7 @@
 								<div class="p-0 col-5 col-md-7">
 									<div class="logo-et-nav-links">
 										<div class="logo">
-											<a href="./home.html"><img src="/assets/images/logo.png" alt="" class="img-fluid" /></a>
+											<a href="./home.html"><img src="../../assets/images/logo.png" alt="" class="img-fluid" /></a>
 										</div>
 										<ul class="nav-links d-none d-lg-inline-flex">
 											<li>
@@ -95,10 +97,10 @@
 								<li><a href="./blog.html">Blog</a></li>
 								<li><a href="./contact.html">Contact Us</a></li>
 								<li>
-									<a href="../../Auth/pages/login.html">Log In</a>
+									<a href="../../Auth/pages/login.html" class="login">Log In</a>
 								</li>
 								<li>
-									<a href="../../Auth/pages/register.html">Register</a>
+									<a href="../../Auth/pages/register.html" class="register">Register</a>
 								</li>
 							</ul>
 						</div>
@@ -114,33 +116,35 @@
 							background-color: var(--green);
 							margin-bottom: 3rem;
 						}
+
 						.hero-section-inner {
 							padding: 6rem 0;
 							row-gap: 4rem;
 						}
+
 						.hero-section-inner .content {
 							text-align: center;
 						}
 					</style>
 					<div class="main-inner">
-						<div class="padding-giver">
-							<div class="hero-section">
-								<div class="hero-section-inner row col-12 m-0 align-items-center">
-									<div class="col-md-6">
-										<div class="content col-md-8 mx-auto text-start" data-aos="fade-right" data-aos-delay="500">
-											<h1><b style="color: #ff4a00">Our Pricing</b></h1>
-											<div class="text-small mt-4">
-												<span>Pick a plan that best fits your need</span>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-5">
-										<div class="image" data-aos="fade-left" data-aos-delay="300">
-											<img src="../../assets/images/finance.png" alt="" class="img-fluid" />
+						<div class="hero-section">
+							<div class="hero-section-inner row col-12 m-0 align-items-center">
+								<div class="col-md-6">
+									<div class="content col-md-8 mx-auto text-start" data-aos="fade-right" data-aos-delay="500">
+										<h1><b style="color: #ff4a00">Our Pricing</b></h1>
+										<div class="text-small mt-4">
+											<span>Pick a plan that best fits your need</span>
 										</div>
 									</div>
 								</div>
+								<div class="col-md-5">
+									<div class="image" data-aos="fade-left" data-aos-delay="300">
+										<img src="../../assets/images/finance.png" alt="" class="img-fluid" />
+									</div>
+								</div>
 							</div>
+						</div>
+						<div class="padding-giver">
 							<div class="container p-0">
 								<!-- section five -->
 								<section class="five">
@@ -599,7 +603,7 @@
 		</div>
 
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="../../assets/js/bootstrap.min.js"></script>
 		<script src="../control.js"></script>
 	</body>
 </html>

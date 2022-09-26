@@ -15,6 +15,7 @@
 	--dark: #202040;
 	--light-yellow: #fef7e6;
 	--yellow: #faba23;
+	--opacity-white: rgb(255, 255, 255);
 }
 .wrapper-inner {
 	min-height: 100%;
@@ -70,8 +71,14 @@
 	transition: 280ms ease;
 	border-radius: 5px;
 	padding: 0.5rem 3rem 0.5rem 2rem;
+	border: 1px solid transparent;
+	margin-bottom: 3px;
 }
 .each-nav-link .nav-link-item:hover {
+	border-color: var(--ocity-white);
+	color: var(--white);
+}
+.nav-links:not(:nth-child(2)) .each-nav-link .nav-link-item.active {
 	background-color: var(--white);
 	color: var(--primary-clr);
 }

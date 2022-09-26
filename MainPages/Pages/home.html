@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="shortcut icon" href="../../assets/images/favicon-icon-logo2.svg" type="image/x-icon" />
-		<link rel="stylesheet" href="/assets/font/bootstrap-icons.css" />
-		<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../../assets/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="../../assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="../styles/globalstyles.css" />
 		<!-- nav styles -->
 		<link rel="stylesheet" href="../styles/nav.css" />
@@ -18,6 +18,7 @@
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<title>Home</title>
 	</head>
+
 	<body>
 		<div class="wrapper">
 			<div class="wrapper-inner">
@@ -29,9 +30,9 @@
 								<div class="p-0 col-5 col-md-7">
 									<div class="logo-et-nav-links">
 										<div class="logo">
-											<a href="./home.html"><img src="/assets/images/logo.png" alt="" class="img-fluid" /></a>
+											<a href="./home.html"><img src="../../assets/images/logo.png" alt="" class="img-fluid" /></a>
 										</div>
-										<ul class="nav-links d-none d-lg-inline-flex">
+										<ul class="nav-links d-none d-lg-inline-flex gap-3">
 											<li>
 												<a href="./prices.html">Prices</a>
 											</li>
@@ -96,10 +97,10 @@
 								<li><a href="./blog.html">Blog</a></li>
 								<li><a href="./contact.html">Contact Us</a></li>
 								<li>
-									<a href="../../Auth/pages/login.html">Log In</a>
+									<a href="../../Auth/pages/login.html" class="login">Log In</a>
 								</li>
 								<li>
-									<a href="../../Auth/pages/register.html">Register</a>
+									<a href="../../Auth/pages/register.html" class="register">Register</a>
 								</li>
 							</ul>
 						</div>
@@ -116,7 +117,7 @@
 								<section class="one">
 									<div class="row col-12 m-0 align-items-center">
 										<div class="p-0 col-md-5">
-											<div class="hero-content">
+											<div class="hero-content animate__animated animate__bounceInLeft">
 												<div class="text-large">
 													<h1>
 														More Views<br />
@@ -135,8 +136,8 @@
 											</div>
 										</div>
 										<div class="p-0 col-md-7">
-											<div class="hero-image">
-												<img src="/assets/images/surprised-girl.jpg" alt="" class="img-fluid" />
+											<div class="hero-image animate__animated animate__bounceInRight">
+												<img src="../../assets/images/surprised-girl.jpg" alt="" class="img-fluid" />
 											</div>
 										</div>
 									</div>
@@ -154,7 +155,7 @@
 								<section class="two">
 									<div class="row col-12 m-0 align-items-center">
 										<div class="p-0 col-md-5">
-											<div class="content">
+											<div class="content" data-aos="flip-left">
 												<div class="text-large">
 													<h1>Just by Gifting Traffic You Can Make more Money</h1>
 												</div>
@@ -170,8 +171,8 @@
 											</div>
 										</div>
 										<div class="p-0 col-md-7">
-											<div class="hero-image">
-												<img src="/assets/images/Layer_x0020_1.png" alt="" class="img-fluid" />
+											<div class="hero-image" data-aos="flip-right" data-aos-delay="300">
+												<img src="../../assets/images/Layer_x0020_1.png" alt="" class="img-fluid" />
 											</div>
 										</div>
 									</div>
@@ -183,7 +184,7 @@
 										<h3>How to use</h3>
 									</div>
 									<div class="each-usage-wrapper row col-12 m-0 align-items-start">
-										<div class="each-usage col-md-3">
+										<div class="each-usage col-md-3" data-aos="zoom-in" data-aos-delay="0">
 											<div class="icon">
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +207,7 @@
 												<span>Create an account with ease</span>
 											</div>
 										</div>
-										<div class="each-usage col-md-3">
+										<div class="each-usage col-md-3" data-aos="zoom-in" data-aos-delay="200">
 											<div class="icon">
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +233,7 @@
 												<span>Pick a membership plan that best fits your needs.</span>
 											</div>
 										</div>
-										<div class="each-usage col-md-3">
+										<div class="each-usage col-md-3" data-aos="zoom-in" data-aos-delay="350">
 											<div class="icon">
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
@@ -266,7 +267,7 @@
 												<span>We encourage you to add as many links</span>
 											</div>
 										</div>
-										<div class="each-usage col-md-3">
+										<div class="each-usage col-md-3" data-aos="zoom-in" data-aos-delay="550">
 											<div class="icon">
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
@@ -293,25 +294,25 @@
 								<section class="four">
 									<div class="row col-12 m-0 align-items-center justify-content-evenly justify-content-md-between">
 										<div class="p-0 col-md-6">
-											<div class="image">
+											<div class="image" data-aos="fade-right" data-aos-delay="200">
 												<img src="../../assets/images/seo.png" alt="" class="img-fluid" />
 											</div>
 										</div>
 										<div class="p-0 col-md-5">
 											<div class="content">
 												<div class="text-large">
-													<div class="pre-title">
+													<div class="pre-title" data-aos="fade-left">
 														<small>Make Money</small>
 													</div>
-													<h1>Track the performance of your Activities</h1>
+													<h1 data-aos="fade-left" data-aos-delay="100">Track the performance of your Activities</h1>
 												</div>
-												<div class="text-small">
+												<div class="text-small" data-aos="fade-left" data-aos-delay="200">
 													<span
 														>Generate enough traffic and sell in our Market place and get immediate notification when you
 														make sales.</span
 													>
 												</div>
-												<div class="call-to-action">
+												<div class="call-to-action" data-aos="fade-left" data-aos-delay="300">
 													<a href=""> Get Started </a>
 												</div>
 											</div>
@@ -332,7 +333,7 @@
 									<div
 										class="cards-wrapper row align-items-start justify-content-center justify-content-sm-start justify-content-md-evenly">
 										<!-- ecah card -->
-										<div class="col-md-3 p-0 each-card">
+										<div class="col-md-3 p-0 each-card" data-aos="flip-right" data-aos-delay="150">
 											<div class="each-card-inner">
 												<div class="card-title">
 													<h4>Basic</h4>
@@ -382,7 +383,7 @@
 										</div>
 										<!-- each card end -->
 										<!-- ecah card -->
-										<div class="col-md-3 p-0 each-card">
+										<div class="col-md-3 p-0 each-card" data-aos="flip-right" data-aos-delay="350">
 											<div class="each-card-inner">
 												<div class="card-title">
 													<h4>Premium</h4>
@@ -432,7 +433,7 @@
 										</div>
 										<!-- each card end -->
 										<!-- ecah card -->
-										<div class="col-md-3 p-0 each-card">
+										<div class="col-md-3 p-0 each-card" data-aos="flip-right" data-aos-delay="450">
 											<div class="each-card-inner">
 												<div class="card-title">
 													<h4>Affiliate</h4>
@@ -482,18 +483,20 @@
 										<div class="p-0 col-md-6">
 											<div class="content">
 												<div class="text-large">
-													<div class="pre-title">
+													<div class="pre-title" data-aos="fade-right">
 														<small>Join Now</small>
 													</div>
-													<h1>Join More Than 90, 000+ Amazing People Who Love Our Product</h1>
+													<h1 data-aos="fade-right" data-aos-delay="100">
+														Join More Than 90, 000+ Amazing People Who Love Our Product
+													</h1>
 												</div>
-												<div class="text-small">
+												<div class="text-small" data-aos="fade-right" data-aos-delay="200">
 													<span
 														>Generate enough traffic and sell in our Market place and get immediate notification when you
 														make sales.</span
 													>
 												</div>
-												<div class="call-to-action">
+												<div class="call-to-action" data-aos="fade-right" data-aos-delay="300">
 													<a href=""> Get Started </a>
 												</div>
 											</div>
@@ -1007,7 +1010,10 @@
 		</div>
 
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script src="/assets/js/bootstrap.min.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+			crossorigin="anonymous"></script>
 		<script src="../control.js"></script>
 	</body>
 </html>
