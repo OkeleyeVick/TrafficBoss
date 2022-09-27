@@ -19,7 +19,7 @@
 }
 .socials ul {
 	align-items: center;
-	row-gap: 1rem;
+	row-gap: 0.5rem;
 	column-gap: 1.2rem;
 }
 .socials ul li a svg {
@@ -37,6 +37,9 @@
 .content-body {
 	padding-top: 3rem;
 	row-gap: 2rem;
+}
+.content-title h2 {
+	font-weight: 900;
 }
 .content small {
 	color: var(--dark);
@@ -124,6 +127,9 @@
 }
 .each-card .card-body .top :is(h5, p) {
 	color: var(--dark);
+}
+.each-card .card-body .top :is(h5) {
+	font-weight: 900;
 }
 .each-card .card-body .bottom > span {
 	display: flex;

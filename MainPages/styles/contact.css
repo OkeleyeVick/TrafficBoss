@@ -112,7 +112,6 @@
 .get-in-touch .form-input .form-label {
 	margin-bottom: 3px;
 	color: var(--dark);
-	font-weight: 600;
 	font-size: 0.9rem;
 }
 .get-in-touch .form-input .form-control {

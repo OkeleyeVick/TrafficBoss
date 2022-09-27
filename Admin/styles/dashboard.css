@@ -90,62 +90,89 @@
 	color: var(--dark);
 	font-size: 1.5rem;
 }
-
-/* chart wrapper */
-.chart-wrapper {
-	box-shadow: 0px 0px 33px 8px rgba(0, 0, 0, 0.1);
-	min-height: 350px;
-	width: 100%;
+/* traffic overview */
+.traffic-overview {
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+.traffic-overview-inner {
+	min-height: 400px;
+	border: 1px solid var(--border);
 	background-color: var(--white);
-	border-radius: 7px;
-	margin: 6pc 0;
+	border-radius: 5px;
+	padding: 1rem 1.5rem;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.chart-wrapper-inner {
-	padding: 1rem;
-}
-.chart-wrapper-inner .top {
+.overview-header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding-bottom: 1rem;
 }
-.chart-wrapper .title h4 {
-	font-weight: 600;
-	font-size: 1.6rem;
-}
-.chart-wrapper .dropdown {
-	margin-left: 1rem;
-}
-.chart-wrapper .dropdown button {
-	border-radius: 5px;
-	border: 1px solid var(--border);
-	padding: 8px 1.7rem;
-	color: var(--dark);
-	background-color: var(--bg-clr);
-}
-.chart-wrapper-inner .top :is(.title, .date-time button) {
-	display: flex;
-	align-items: center;
-}
-.date-time button {
-	border: 1px solid var(--border);
-	border-radius: 5px;
-	padding: 5px 10px;
-	background-color: var(--bg-clr);
-}
-.date-time button span {
-	font-size: 14px;
-	color: var(--dark);
-}
-.chart-wrapper .date-time input[type="date"] {
+.date-time input[type="date"] {
 	border: none;
 }
-.chart-wrapper .date-time input[type="date"] {
-	background-color: var(--bg-clr);
+.date-time input[type="date"] {
+	background-color: var(--white);
 }
-.chart-wrapper .date-time input[type="date"]::-webkit-datetime-edit {
+.date-time input[type="date"]::-webkit-datetime-edit {
 	display: none;
 }
-.chart-wrapper .date-time input[type="date"]:focus {
+.mobile-dropdown {
+	border: 1px solid var(--border);
+	padding: 6px;
+	border-radius: 5px;
+}
+.mobile-dropdown-menu.show {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border: 1px solid var(--border);
+	min-height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+.mobile-dropdown-menu button {
+	column-gap: 10px;
+	border: 1px solid var(--border);
+	border-radius: 5px;
+	padding: 6px 10px;
+}
+.mobile-dropdown svg {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.dropdown-toggle::after {
+	display: none;
+}
+.date-time input[type="date"]:focus {
 	outline: none;
 	border: none;
+}
+.pc-view {
+	border: 1px solid var(--border);
+	border-radius: 5px;
+	padding: 6px 10px;
+	column-gap: 5px;
+}
+.traffic-overview h4.title {
+	white-space: nowrap;
+}
+.traffic-overview .overview-header .right {
+	width: -webkit-fill-available;
+	width: fill-available;
+	padding: 0 0 0 1rem;
+}
+.traffic-overview .right button.all-media {
+	border: 1px solid var(--border);
+	background-color: var(--bg);
+	padding: 8px 1.1rem;
+	border-radius: 6px;
+	font-size: 14px;
+}
+@media all and (max-width: 768px) {
+	.traffic-overview .overview-header .right {
+		width: fit-content;
+	}
 }
