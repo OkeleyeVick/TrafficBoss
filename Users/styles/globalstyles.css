@@ -2,6 +2,10 @@
 	font-family: BR;
 	src: url("../../assets/font/Roboto-Regular.ttf");
 }
+@font-face {
+	font-family: BR-Bold;
+	src: url("../../assets/font/Roboto-Bold.ttf");
+}
 
 /*  <======== VARIABLES =======>  */
 :root {
@@ -28,6 +32,9 @@
 :is(h1, h2, h3, h4, h5, h6, ul) {
 	margin: 0;
 	padding: 0;
+}
+:is(h1, h2, h3, h4, h5, h6) {
+	font-family: BR-Bold !important;
 }
 ul {
 	list-style-type: none;

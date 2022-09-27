@@ -15,8 +15,8 @@
 		<!-- layout styles -->
 		<link rel="stylesheet" href="../styles/layout.css" />
 		<!-- page styles -->
-		<link rel="stylesheet" href="../styles/layout.css" />
-		<title>Layout</title>
+		<link rel="stylesheet" href="../styles/user-console.css" />
+		<title>User's Console</title>
 	</head>
 	<body>
 		<!-- ! pc view -->
@@ -178,7 +178,7 @@
 						<div class="topper">
 							<!-- title -->
 							<div class="title">
-								<div class="d-none d-md-inline-flex"><h1>Layout</h1></div>
+								<div class="d-none d-md-inline-flex"><h1>Console</h1></div>
 								<div class="mobile-menu-toggler d-md-none">
 									<button
 										type="button"
@@ -242,10 +242,20 @@
 						<div class="page-content-body">
 							<!-- page title for sm screen start -->
 							<div class="title d-md-none">
-								<h2>Layout</h2>
+								<h2>Console</h2>
 							</div>
 							<!-- page title for sm screen end-->
-							<div class="page-content-body-inner"></div>
+							<div class="page-content-body-inner">
+								<div class="start-console"><button>Start console</button></div>
+								<div class="console-content">
+									<div class="console-title">
+										<h6>Console logs</h6>
+									</div>
+									<div class="console-body">
+										<div class="console-body-inner"></div>
+									</div>
+								</div>
+							</div>
 						</div>
 						<!-- page content body ends -->
 					</div>
@@ -429,4 +439,5 @@
 
 	<script src="../../assets/js/bootstrap.bundle.js"></script>
 	<script src="../../assets/js/jquery-3.6.1.min.js"></script>
+	<script src="../user-control.js"></script>
 </html>

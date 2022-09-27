@@ -247,32 +247,56 @@
 							<!-- page title for sm screen end-->
 							<div class="page-content-body-inner">
 								<div class="row col-12 m-0">
-									<div class="p-0 col-md-7">
+									<div class="p-0 col-md-6">
 										<form action="">
-											<input class="form-control" type="file" id="formFile" />
-											<button type="button" class="select-image">
-												<svg
-													xmlns="http://www.w3.org/2000/svg"
-													width="1em"
-													height="1em"
-													preserveAspectRatio="xMidYMid meet"
-													viewBox="0 0 36 36">
-													<path
-														fill="currentColor"
-														d="M32 4H4a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2ZM4 30V6h28v24Z"
-														class="clr-i-outline clr-i-outline-path-1" />
-													<path
-														fill="currentColor"
-														d="M8.92 14a3 3 0 1 0-3-3a3 3 0 0 0 3 3Zm0-4.6A1.6 1.6 0 1 1 7.33 11a1.6 1.6 0 0 1 1.59-1.59Z"
-														class="clr-i-outline clr-i-outline-path-2" />
-													<path
-														fill="currentColor"
-														d="m22.78 15.37l-5.4 5.4l-4-4a1 1 0 0 0-1.41 0L5.92 22.9v2.83l6.79-6.79L16 22.18l-3.75 3.75H15l8.45-8.45L30 24v-2.82l-5.81-5.81a1 1 0 0 0-1.41 0Z"
-														class="clr-i-outline clr-i-outline-path-3" />
-													<path fill="none" d="M0 0h36v36H0z" />
-												</svg>
-												<div class="text"><span> Choose media </span></div>
-											</button>
+											<div class="d-flex align-items-center justify-content-between dropdowns flex-wrap">
+												<div class="dropdown col-12 col-md">
+													<button type="button" data-bs-toggle="dropdown" aria-expanded="false">
+														<span>Youtube</span><span><em class="bi bi-chevron-down"></em></span>
+													</button>
+													<ul class="dropdown-menu">
+														<li><a class="dropdown-item" href="#">Youtube</a></li>
+														<li><a class="dropdown-item" href="#">Facebook</a></li>
+														<li><a class="dropdown-item" href="#">LinkedIn</a></li>
+														<li><a class="dropdown-item" href="#">Twitter</a></li>
+														<li><a class="dropdown-item" href="#">Custom</a></li>
+													</ul>
+												</div>
+												<div class="dropdown col-12 col-md">
+													<button type="button" data-bs-toggle="dropdown" aria-expanded="false">
+														<span>Channel</span><span><em class="bi bi-chevron-down"></em></span>
+													</button>
+													<ul class="dropdown-menu">
+														<li><a class="dropdown-item" href="#"> Channel </a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="form-input">
+												<input class="form-control" type="file" id="formFile" />
+												<button type="button" class="select-image">
+													<svg
+														xmlns="http://www.w3.org/2000/svg"
+														width="1em"
+														height="1em"
+														preserveAspectRatio="xMidYMid meet"
+														viewBox="0 0 36 36">
+														<path
+															fill="currentColor"
+															d="M32 4H4a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2ZM4 30V6h28v24Z"
+															class="clr-i-outline clr-i-outline-path-1" />
+														<path
+															fill="currentColor"
+															d="M8.92 14a3 3 0 1 0-3-3a3 3 0 0 0 3 3Zm0-4.6A1.6 1.6 0 1 1 7.33 11a1.6 1.6 0 0 1 1.59-1.59Z"
+															class="clr-i-outline clr-i-outline-path-2" />
+														<path
+															fill="currentColor"
+															d="m22.78 15.37l-5.4 5.4l-4-4a1 1 0 0 0-1.41 0L5.92 22.9v2.83l6.79-6.79L16 22.18l-3.75 3.75H15l8.45-8.45L30 24v-2.82l-5.81-5.81a1 1 0 0 0-1.41 0Z"
+															class="clr-i-outline clr-i-outline-path-3" />
+														<path fill="none" d="M0 0h36v36H0z" />
+													</svg>
+													<div class="text"><span> Choose media </span></div>
+												</button>
+											</div>
 											<div class="form-input">
 												<textarea
 													placeholder="Write a caption..."
@@ -466,6 +490,6 @@
 		<!-- ? end of mobile view -->
 		<script src="../../assets/js/bootstrap.bundle.js"></script>
 		<script src="../../assets/js/jquery-3.6.1.min.js"></script>
-		<script src="../../assets/js/custom.js"></script>
+		<script src="../user-control.js"></script>
 	</body>
 </html>
