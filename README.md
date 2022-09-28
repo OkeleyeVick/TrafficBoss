@@ -12,3 +12,7 @@ With just few clicks, a simple subscription and to-dos, you can have your social
 - [x] Learnt new DOM manipulations and another event handler
 - [x] Learnt a new way to use Boostrap 5.2 and it's utilities
 - [x] Finally, I completed tons of pages of this website, in a week... Broke my old record 🤫🤗
+
+<br>
+The link to the website will be out soon enough
+Same as the frontend demo link hosted on netlify
